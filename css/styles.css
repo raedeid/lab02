@@ -1,0 +1,14 @@
+p{
+    background-color: darkgreen;
+    color:lightgoldenrodyellow;
+    font:italic 16px monospace ;
+}
+#title{
+    background-color: darkred;
+    color: lightslategrey;
+    font-family: fantasy;
+}
+img{
+    border:15px double darkslategray;
+}
+
