@@ -3,12 +3,16 @@ p{
     color:lightgoldenrodyellow;
     font:italic 16px monospace ;
 }
-#title{
+header{
+    position: relative;
     background-color: darkred;
     color: lightslategrey;
     font-family: fantasy;
 }
 img{
     border:15px double darkslategray;
+}
+li{
+    font:italic 30px Comic ;
 }
 
