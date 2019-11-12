@@ -36,7 +36,7 @@ if (r == 3) {
     alert('the right answer is 9');
 } else if (guess == '9') {
     score++ ;
-    alert('congratulation you guess the number your score is ' + ' ' +score.toString() );
+    alert('congratulation you guess my lucky number is 9 the number your score is ' + ' ' +score.toString() );
 }
 var w = 0
 var wrong_answer = true ;
@@ -46,16 +46,16 @@ while (w < 6 && wrong_answer) {
     for (var G = 0; G < 6; G++) {
         if (prime[G] == answer_prime) {
             score++ ;
-            alert('right answer your score is ' + ' ' + score.toString() );
+            alert('right answer your score is ' + ' ' + score.toString() + ' the full answer is ' + prime.join(',') );
             wrong_answer = false ;
         }
     }    
     if (wrong_answer && w < 5) {
         alert('wrong answer , try again');
         answer_prime = prompt('give me prime number upper 10');
-    }else if (w => 5 && wrong_answer) {
-        alert('you loose all apportunity , sorry');
+    }else if (w > 5 && wrong_answer) {
+        alert('you loose all apportunity , sorry the right answer is ' + prime.join(','));
     }
     w++;
 }
-alert('your score is' + score.toString() + 'from 7');
+alert('your score is ' + score.toString() + ' from 7');
